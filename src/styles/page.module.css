@@ -95,7 +95,7 @@
 @media screen and (max-width: 500px) {
     .about{
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .about div{
