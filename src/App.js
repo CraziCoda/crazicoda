@@ -20,7 +20,7 @@ class App extends React.Component{
         <Router>
           <Header that={this} />
           <Switch>
-            <Route exact path="/Home">
+            <Route exact path="/home">
               <Home />
             </Route>
   
@@ -33,7 +33,7 @@ class App extends React.Component{
             </Route>
 
             <Route path="/">
-              <Redirect to="/Home"/>
+              <Redirect to="/home"/>
             </Route>
           </Switch>
         </Router>
