@@ -6,6 +6,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import {
   BrowserRouter as Router,
+  Redirect,
   Route,
   Switch
 } from 'react-router-dom';
@@ -18,7 +19,6 @@ class App extends React.Component{
         
         <Router>
           <Header that={this} />
-          {/* <link path="/" component={Header} /> */}
           <Switch>
             <Route exact path="/Home">
               <Home />
@@ -30,6 +30,10 @@ class App extends React.Component{
 
             <Route path="/services">
               <Services />
+            </Route>
+
+            <Route path="/">
+              <Redirect to="/Home"/>
             </Route>
           </Switch>
         </Router>
