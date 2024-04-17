@@ -1,4 +1,4 @@
-I am Jeff Konadu Sarpong. A fullstack and blockchain developer.
+I am Jeff Konadu Sarpong. A fullstack and web programmer.
 I am a Computer Science Student at Kwame Nkrumah University Of Science And Technology.
 My tech stack include JavaScript, Python, Solidity and C++.
 
